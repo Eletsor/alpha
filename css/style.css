@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+body{
+font-family: "Play", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+header{
+    background-image: url("../img/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 340px;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.header-row{
+    align-items: center;
+    margin: 0 8px 0 8px;
+}
+
+.logo-col{
+    padding: 0;
+}
+
+.tel-col{
+    padding: 0;
+}
+
+.tel-col a{
+    text-decoration: none;
+    float: right;
+    color: white;
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.header-nav{
+    margin: 0 0px 0 8px;
+}
+
+.header-form{
+    background: linear-gradient(90deg, rgba(128,82,193,1) 100%, rgba(0,212,255,1) 100%);
+    
+}
+
