@@ -6,71 +6,61 @@
     <title>Alpha project</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c29f93912a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> 
+    
 </head>
 <body>
     <header class="header">
-        
-        <div class="container">
-            <div class="row  header-row ">
-                <div class="col logo-col"><img src="img/LOGO.svg" alt="logo">
-                </div>
-                <div class="col  tel-col"><p><a href="">8 812 409-52-22</a></p>
-                </div>
-            </div>
-            
-            <nav class="navbar header-nav navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                  
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <form class="d-flex">
-                    <input class="form-control header-form me-2" type="search" aria-label="Search">
-                  </form>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Услуги</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Еще
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Ссылки</a></li>
-                          <li><a class="dropdown-item" href="#">Контакты</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Избранное</a></li>
-                        </ul>
-                      </li>
-                      
-                    </ul>
-                    
-                  </div>
-                </div>
-              </nav>
-            
-
-
-            
-
-
-
-
-
-
-
-
+        <div class="navbarinner">
+          <div class="navbar-top">
+            <a href="" class="navbar-logo">
+              <img src="img/LOGO.svg"  alt="Логотип" width="127" height="33">
+            </a>
+            <ul class="navbar__phones">
+              <li class="navbar__phone">
+                <a href="tel:+78124095222" class="navbar__link">8 (812) 409-52-22</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar__bottom">
+              <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class=" rounded search">
+                <input type="text" class="form-control rounded header-search" maxlength="50" placeholder="" aria-label="Search" aria-describedby="search-addon" />
+              </div>
+          </div>
+          
+        </div>
+        <div class="header__brbox">
+          <div class="br__boxitem">
+            <a href="">Главная</a>
+          </div>
+          <div class="br__boxitem boxpad">
+            <img src="img/str.svg" alt="">
+            <a href="">Услуги Альфа маркетинг</a>
+          </div>
+          <div class="br__boxitem boxpad">
+            <img src="img/str.svg" alt="">
+            <a href="">CRM</a>
+          </div>
         </div>
     </header>
     
+    <section id="crm" >
+      <div class="crm__container">
+        <div class="crm__block">
+          <div class="crm__element"><h1>crm</h1></div>
+          <div class="crm__element"><img src="img/crm.png" alt=""></div>
+          <div class="crm__element"><a href=""></a></div>
+        </div>
+      </div>
+    </section>
 
-    
-
-
+   
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>
 </body>
