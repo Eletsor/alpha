@@ -12,6 +12,9 @@ background-size: cover;
 
 
 /*defoalt*/
+
+
+
 h2{
   font-size: 24px;
   margin: 0;
@@ -36,7 +39,7 @@ p{
 
 /*containers*/
 
-.services{
+.section {
   padding: 75px 0 0 0;
   margin: 0 auto;
 }
@@ -46,6 +49,9 @@ p{
   margin: 0 auto;
   
 }
+
+
+
 
 /*btn*/
 
@@ -254,6 +260,78 @@ header{
   line-height: 20px;
   text-align: center;
   color: #FFFFFF;
+}
+
+
+/*function*/
+
+.function__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  
+  gap: 20px;
+  
+}
+
+.function__item{
+  display: flex;
+}
+
+
+
+.function__image{
+  background: linear-gradient(230.07deg, #FFFFFF -50.81%, #0E9DDD 94.55%);
+  gap: 0px;
+  border-radius: 10px 0px 0px 10px;
+  opacity: 0px;
+  text-align: center;
+  padding: 20px 0 0 0 ;
+  
+}
+
+.function-logo{
+  padding:  0 34px ;
+}
+
+.function__image img{
+  display: block;
+}
+
+.function__info{
+  background: rgba(72, 5, 114, 0.5);
+  gap: 10px;
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0px;
+  padding: 10px 10px 48px 10px;
+}
+
+.function__info-tittle{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+
+.function__info-items{
+  padding: 10px 0 0 0;
+}
+
+.function__info-item{
+  display: flex;
+  align-items: flex-start;
+}
+
+.function__info-item p{
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+.item-padding{
+  padding: 10px 0 0 0 ;
 }
 
 
