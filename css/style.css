@@ -268,16 +268,17 @@ header{
 .function__wrapper{
   display: flex;
   flex-wrap: wrap;
-  
+  align-items: stretch;
   gap: 20px;
+  margin: 0 auto;
   
 }
 
 .function__item{
   display: flex;
+  margin: 0 auto;
+  
 }
-
-
 
 .function__image{
   background: linear-gradient(230.07deg, #FFFFFF -50.81%, #0E9DDD 94.55%);
