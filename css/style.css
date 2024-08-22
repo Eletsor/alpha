@@ -234,31 +234,29 @@ header{
 }
 
 .services__carts{
-  padding-top: 20px;
   justify-content: center;
-  align-items: center;
   text-align: center;
-  
-}
-
-.services__wrap{
-  
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 24px;
 }
 
 .services__cart{
+  width: 160px;
   
-  
-  margin-bottom:15px;
- 
 }
 
 .services__cart p{
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  color: #FFFFFF;
   text-align: center;
+  color: #FFFFFF;
 }
+
+
 
 
 
