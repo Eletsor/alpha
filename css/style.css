@@ -353,6 +353,28 @@ header{
 
 
 
+/*form*/
+
+.form__wrapper{
+  padding: 0;
+}
+
+.form__wrapper{
+  
+}
+
+.card{
+  background: rgba(72, 5, 114, 0.49);
+  border: 2px solid #9400ff ;
+  border-color: linear-gradient(147.77deg, #9400ff 14.56%, rgba(198, 79, 135, 0.83) 86.63%);
+  
+
+  
+  
+
+}
+
+
 
 
 
