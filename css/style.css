@@ -285,6 +285,7 @@ header{
   background: linear-gradient(rgba(148, 0, 255, 1), rgba(148, 0, 255, 1)) padding-box, linear-gradient(to right, rgba(198, 79, 135, 0.83), rgba(198, 79, 135, 0.83)) border-box;
   box-shadow: 0px 0px 20px 0px rgba(215, 149, 255, 1);
   box-shadow: 0px 0px 10px 0px rgba(215, 149, 255, 1); 
+  min-height: 190px;
 }
 
 .function__image{
@@ -310,7 +311,8 @@ header{
   gap: 10px;
   border-radius: 0px 10px 10px 0px;
   opacity: 0px;
-  padding: 10px 10px 48px 10px;
+  padding: 10px 10px  10px;
+  
 }
 
 .function__info-tittle{
@@ -323,7 +325,10 @@ header{
 
 .function__info-items{
   padding: 10px 0 0 0;
+  
 }
+
+
 
 .function__info-item{
   display: flex;
