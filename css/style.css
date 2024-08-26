@@ -481,11 +481,22 @@ select:focus{
   background: linear-gradient(90deg, rgba(177, 149, 255, 0.7) 0%, rgba(177, 149, 255, 0.42) 0.01%, rgba(44, 48, 83, 0) 100%);
   border-radius: 20px 0 0 20px;
   padding: 14px 26px;
+  gap: 9px;
 }
 
 .favor__item{
   display: flex;
-  
+  height: 83px;
+  align-items: center;
+}
+
+.favor__item:first-child{
+  height: 60px;
+}
+
+.favor__item img{
+  width: 40px;
+  height: 43px;
 }
 
 .favor__item p {
