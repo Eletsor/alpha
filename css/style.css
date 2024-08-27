@@ -275,7 +275,7 @@ header{
 
 .function__item{
   display: flex;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 10px;
   background: linear-gradient(rgba(148, 0, 255, 1), rgba(148, 0, 255, 1)) padding-box, linear-gradient(to right, rgba(198, 79, 135, 0.83), rgba(198, 79, 135, 0.83)) border-box;
   box-shadow: 0px 0px 20px 0px rgba(215, 149, 255, 1);
@@ -360,7 +360,7 @@ header{
 
 .card{
   background: rgba(72, 5, 114, 0.49);
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 32px;
   background: linear-gradient(#9400FF, #9400FF) padding-box, linear-gradient(to right, #C64F87D4, #C64F87D4) border-box;
   box-shadow: 0px 0px 10px 0px #9662FF;
@@ -509,42 +509,36 @@ select:focus{
 
 /*biz*/
 
-.biz__wrap{
-
-}
-
 .biz__tittle{
   text-align: center;
+  font-weight: 700;
+  letter-spacing: -2%;
 }
 
-.biz__items{
-  padding: 45px 0 0 0;
+.biz__par{
+  text-align: center;
+  padding-top: 5px;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 2%;
+  background: linear-gradient(266.77deg, #FFFFFF -11.99%, #D795FF 42.41%, #7BC2FE 91.84%);
+  color: transparent;
+  background-clip: text;
+}
+
+.biz__elements{
+  padding-top:45px ;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
 
-
-.biz__item{
-  text-align: center;
-  padding: 30px 30px 20px 30px;
-  border-radius: 30px;
-  
-  border: 2px solid transparent;
-  background-origin: border-box;
-  
-  border-image-source: linear-gradient(147.77deg, #9400FF 14.56%, rgba(198, 79, 135, 0.83) 86.63%);
-  
-  
-}
-
 .biz__img{
-  padding: 25px 75px 13px 75px;
   text-align: center;
-  border-radius: 30px;
+  padding: 25px 80px 13px 75px;
   background: linear-gradient(68.89deg, #1F0B32 3.44%, #1D1B7A 98.64%);
-
+  border-radius: 30px;
 }
 
 .biz__img img{
@@ -552,33 +546,99 @@ select:focus{
   height: 120px;
 }
 
-#biz-p-img{
+.biz__img p{
   font-weight: 700;
   font-size: 10px;
   line-height: 20px;
+  background: linear-gradient(176.42deg, #B195FF -126.75%, #D795FF 97.05%);
+  color: transparent;
+  background-clip: text;
+  padding-top: 7px;
+}
+
+.biz__element{
+  box-shadow: 0px 0px 10px 0px #D795FF80;
+  border-radius: 30px;
+  
+}
+
+.biz__element__wrap{
+  padding: 33px 33.5px 26px 33px;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  box-shadow: inset 0px 0px 0px 100vw #421963B2;
+  border-radius: 10px;
+  background: linear-gradient(#9400FF, #9400FF) padding-box, linear-gradient(to right, rgba(198, 79, 135, 0.83), rgba(198, 79, 135, 0.83)) border-box;
+}
+
+.biz__p{
+  padding: 12px 0 13px 0;
+}
+
+#biz__p-1{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17.6px;
+  color: #FFFFFF;
+}
+
+#biz__p-2{
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15.4px;
+  color: #FFFFFF;
+}
+
+#biz__p-3{
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15.4px;
+  background: linear-gradient(176.42deg, #B195FF -126.75%, #D795FF 97.05%);
+  color: transparent;
+  background-clip: text;
+}
+
+.biz__btn__wrap{
   text-align: center;
-  background: linear-gradient(176.42deg, #B195FF -100.75%, #D795FF 97.05%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.biz__parag{
-  padding: 13px 0 13px 0;
 }
 
 
-#biz-p-1{
-  color: #9c27f0;
-  padding: 0 0 10px 0;
+.biz__btn{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23.28px;
+  padding: 11px 34px 12px 34px;
+  display: inline-block;
+  border: 1px solid transparent;
+  box-shadow: inset 0px 0px 0px 100vw #421963ec;
+  border-radius: 10px;
+  background: linear-gradient(#c9a2fcdc, #c192ff) padding-box, linear-gradient(to right, #383eec54, #23ffffc7) border-box;
+  transition: 0.5s;
 }
 
-#biz-p-2{
-  padding: 0 0 10px 0;
+.biz__btn:hover{
+  box-shadow: inset 0px 0px 0px 100vw #2f0369af;
 }
 
-#biz-p-3{
-
+.biz__btn:not(:active){
+  background: linear-gradient(#c9a2fcdc, #c192ff) padding-box, linear-gradient(to right, #383eec54, #23ffffc7) border-box;
 }
+
+.biz__btn:active{
+  background: linear-gradient(#a465f7f1, #a86ef5) padding-box, linear-gradient(to right, #232af0a9, #0ee9e9f3) border-box;
+}
+
+
+
+
+
+
+
+
 
 
 
