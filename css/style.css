@@ -625,7 +625,7 @@ select:focus{
 }
 
 .biz__btn:not(:active){
-  background: linear-gradient(#c9a2fcdc, #c192ff) padding-box, linear-gradient(to right, #383eec54, #23ffffc7) border-box;
+  background: linear-gradient(#c59ff7dc, #c192ff) padding-box, linear-gradient(to right, #383eec54, #23ffffc7) border-box;
 }
 
 .biz__btn:active{
