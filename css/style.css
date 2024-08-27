@@ -626,11 +626,15 @@ select:focus{
 
 .biz__btn:not(:active){
   box-shadow: inset 0px 0px 0px 100vw #421963ec;
+ 
 }
 
 .biz__btn:active{
+  background: linear-gradient(#c9a2fc3b, #c192ff) padding-box, linear-gradient(to right, #383eec4f, #23fffff3) border-box;
   box-shadow: inset 0px 0px 0px 100vw #2f0369af;
 }
+
+
 
 
 
