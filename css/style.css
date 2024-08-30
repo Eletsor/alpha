@@ -621,7 +621,7 @@ select:focus{
 }
 
 .biz__btn:hover{
-  box-shadow: inset 0px 0px 0px 100vw #2f0369af;
+  background: linear-gradient(#9877c4, #947db3) padding-box, linear-gradient(to right, #383eec54, #23ffffc7) border-box;
 }
 
 .biz__btn:not(:active){
@@ -727,23 +727,22 @@ select:focus{
   box-shadow: inset 0px 0px 0px 100vw #1E0044;
   border-radius: 10px;
   background: linear-gradient(#470999, #470999) padding-box, linear-gradient(to right, #383eec54, #23ffffc7) border-box;
-  transition: 0.7s;
+  transition: 0.5s;
 
 }
 
 .linker__btn:hover{
-  box-shadow: 0px 0px 10px 0px rgb(190, 94, 250);
-  background: linear-gradient(#bd91f7dc, #b88bf3) padding-box, linear-gradient(to right, #383eec54, #23ffffc7) border-box;
+  background: linear-gradient(#852bfa, #730ff5) padding-box, linear-gradient(to right, #262aac54, #21bbbbc7) border-box;
 }
 
 .linker__btn:not(:active){
-  box-shadow: inset 0px 0px 0px 100vw #421963ec;
+  box-shadow: inset 0px 0px 0px 100vw #1E0044;
  
 }
 
 .linker__btn:active{
-  background: linear-gradient(#c9a2fc3b, #c192ff) padding-box, linear-gradient(to right, #383eec4f, #23fffff3) border-box;
-  box-shadow: inset 0px 0px 0px 100vw #2f0369af;
+  
+  box-shadow: inset 0px 0px 0px 100vw #330272;
 }
 
 
