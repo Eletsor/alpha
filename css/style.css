@@ -806,7 +806,7 @@ select:focus{
     width: 340px;
     animation-duration: 0.5s;
     margin: 0 auto;
-    top: 15%;
+    top: 25%;
     border-radius: 32px;
   }
 
