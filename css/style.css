@@ -794,12 +794,20 @@ select:focus{
    
   }
 
+  .modal-body{
+    padding: 44px 16px;
+    border-radius: 32px;
+    background: #B77EFF80;
+
+  }
+
   .modal-content {
-    top: 30%;
     animation-name: animate;
-    width: 300px;
+    width: 340px;
     animation-duration: 0.5s;
     margin: 0 auto;
+    top: 10%;
+    border-radius: 32px;
   }
 
   @keyframes animate {
@@ -807,5 +815,22 @@ select:focus{
     to {top:0; opacity:1}
   }
 
+  .modal-card__wrapper{
 
-  
+  }
+
+
+  .modal-card__input{
+    padding: 10px 18px;
+    background: transparent;
+    border: none ;
+    border-radius: 10px;
+    border: 5px solid #f5f5f5;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: 1px solid;
+    
+
+
+  }
