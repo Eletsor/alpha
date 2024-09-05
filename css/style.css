@@ -790,6 +790,54 @@ select:focus{
   background: #caa3fddc;
 }
 
+/*partners*/
+
+.partners__tittle{
+  text-align: center;
+}
+
+.partners__tittle h2{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.partners__img{
+  padding-top: 24px;
+  text-align: center;
+}
+
+.partners__links__wrap{
+  padding-top: 57px;
+  max-width: 380px;
+}
+
+#partners__elements-bord{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(45deg, #00FFB7, #D795FF) 1;
+}
+
+#partners__elements-bordr{ 
+  border-bottom: 1px solid;
+  border-image: linear-gradient(45deg, #00FFB7, #D795FF) 1;
+}
+
+.partners__element{
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#partners-link{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+
+}
 
 
 /*burger*/
