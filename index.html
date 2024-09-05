@@ -21,32 +21,28 @@
               <div class=" p-6 modal-card__wrapper">
                 
                 <h2 class="fw-bolder text-center mb-2">Форма для заполнения</h2>
-                <p class="fw-normal text-center  card__p">Оставьте свои контактные данные, и мы свяжемся с Вами в течение 20 минут</p>
+                <p class="fw-normal text-center  card__p modal-card__p">Оставьте свои контактные данные, и мы свяжемся с Вами в течение 20 минут</p>
                 <form>
                   
                   <div data-mdb-input-init class="form-outline mb-4">
                     <div class="border__input">
-                    <input input="name" placeholder="ФИО" id="form3Example1cg" class=" w-100 modal-card__input" />
+                    <input input="name" placeholder="Имя*" id="form3Example1cg" class=" w-100 modal-card__input" />
                   </div>
                   </div>
                 
                   <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="tel"  placeholder="Телефон" id="form3Example3cg" class="w-100 modal-card__input" />
-                    
+                    <input type="tel"  placeholder="@Почта*" id="form3Example3cg" class="w-100 modal-card__input" />
                   </div>
-  
                   
-                  <h1>ДОДЕЛАТЬ</h1>
-                  
-  
-                  
-  
                   <div class="d-flex justify-content-center">
                     <button type="submit" data-mdb-button-init
                       data-mdb-ripple-init class="btn  form__btn">Оставить заявку</button>
                   </div>
   
-                  
+                  <div class="modal__checkbox">
+                    <input class="modal__input" required type="checkbox" id="horns" name="horns" />
+                    <label for="horns">Нажимая на кнопку, я соглашаюсь с условиями <br> <a id="modal__link" href="#">Политики конфиденциальности</a></label>
+                  </div>
   
                 </form>
   
@@ -208,7 +204,7 @@
                   <div class="card-body p-6 card__wrapper">
                     
                     <h2 class="fw-bolder text-center mb-2">Оставить заявку</h2>
-                    <p class="fw-normal text-center  card__p">Выберите систему для вашего бизнеса,  и мы свяжемся с Вами в течение 20 минут</p>
+                    <p class="fw-normal text-center  card__p">Выберите систему для вашего бизнеса, и мы свяжемся с Вами в течение 20 минут</p>
                     <form>
                       
                       <div data-mdb-input-init class="form-outline mb-4">
