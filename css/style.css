@@ -909,6 +909,7 @@ select:focus{
 
 .footer__politic{
   padding-top: 21px;
+  padding-bottom: 25px;
   font-weight: 400;
   font-size: 10px;
   line-height: 11px;
@@ -925,6 +926,8 @@ select:focus{
   text-decoration: none;
   color: #FFFFFF;
 }
+
+
 
 
 
