@@ -1,7 +1,4 @@
-let menutoggle = document.querySelector('.toggle');
-menutoggle.onclick = function(){
-  menutoggle.classList.toggle('active')
- } 
+
 
  var modal = document.getElementById('myModal');
  var btn = document.getElementById("myBtn");
@@ -44,4 +41,7 @@ window.onclick = function(event) {
     document.getElementsByTagName("body")[0].style.overflow = 'scroll';
   }
 }
+
+
+
 
