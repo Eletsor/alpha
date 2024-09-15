@@ -1138,14 +1138,14 @@ select:focus{
 
 #menu
 {
+  
   position: absolute;
   width: 350px;
-  height: 120vh;
+  height: 90vh;
   margin: -90px 0 0 -50px;
   padding: 110px 10px 50px 40px;
-  
   border-radius: 20px;
-  background: rgba(29, 1, 65, 0.925);
+  background: linear-gradient( rgba(29, 1, 65, 0.89),rgb(29, 1, 65) , rgba(255, 255, 255, 0) 100%);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;

@@ -28,6 +28,9 @@ window.onclick = function(event) {
   }
 }
 
+
+
+
 var modal = document.getElementById('myModalx');
  var btn = document.getElementById("myBtnx");
  var span = document.getElementsByClassName("close")[0];
