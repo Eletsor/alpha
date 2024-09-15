@@ -972,6 +972,8 @@ select:focus{
    
   }
 
+
+
   .modal-body{
     padding: 44px 16px;
     border-radius: 32px;
@@ -1102,15 +1104,18 @@ select:focus{
 #menuToggle span:first-child
 {
   transform-origin: 0% 0%;
+  
 }
 
 #menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
+  
 }
 
 #menuToggle input:checked ~ span
 {
+  
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: linear-gradient(to right, rgba(123, 194, 254, 1), rgba(215, 149, 255, 1) , rgba(255, 255, 255, 1));
@@ -1118,12 +1123,14 @@ select:focus{
 
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
+  
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
+  
   transform: rotate(-45deg) translate(0, -1px);
 }
 
@@ -1134,7 +1141,7 @@ select:focus{
   height: 120vh;
   margin: -90px 0 0 -50px;
   padding: 110px 10px 50px 40px;
-  
+  position: fixed;
   border-radius: 20px;
   background: rgba(29, 1, 65, 0.925);
   list-style-type: none;
