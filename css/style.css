@@ -1134,6 +1134,8 @@ select:focus{
   transform: rotate(-45deg) translate(0, -1px);
 }
 
+
+
 #menu
 {
   position: absolute;
@@ -1141,7 +1143,7 @@ select:focus{
   height: 120vh;
   margin: -90px 0 0 -50px;
   padding: 110px 10px 50px 40px;
-  position: fixed;
+  
   border-radius: 20px;
   background: rgba(29, 1, 65, 0.925);
   list-style-type: none;
