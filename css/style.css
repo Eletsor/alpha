@@ -1243,6 +1243,16 @@ select:focus{
 
 #menu-sm{
   display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  width: 200px;
+}
+
+#menu-sm a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 700;
 }
 
 }
