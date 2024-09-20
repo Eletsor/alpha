@@ -265,13 +265,16 @@ header{
 /*crm block*/
 
 #crm{
-  padding-top: 75px;
+  background-image: url("../img/headercapa1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 .crm__container{
-  padding: 0px 25px 0 25px;
+  padding: 75px 25px 0 25px;
   margin: 0 auto;
+
 }
 
 
@@ -531,6 +534,11 @@ select:focus{
   gap: 9px;
 }
 
+
+.favor__items-wrap{
+
+}
+
 .favor__item{
   display: flex;
   height: 83px;
@@ -708,6 +716,7 @@ select:focus{
   background: linear-gradient(68.89deg, #190b32 3.44%, #3f176d 98.64%);
   border-radius: 15px;
   width: 100%;
+  max-width: 570px;
 }
 
 
@@ -885,6 +894,7 @@ select:focus{
 .partners__links__wrap{
   padding-top: 57px;
   max-width: 380px;
+  margin: 0 auto;
 }
 
 #partners__elements-bord{
@@ -1358,5 +1368,43 @@ select:focus{
 .sticky__btns{
   zoom: normal;
 }
+
+/*crm*/
+
+.crm__element img{
+  width: 350px;
+  padding: 30px 0 40px 0;
+}
+
+/*favor*/
+
+.favor__img{
+  
+}
+
+.favor__items-wrap{
+  
+}
+
+.favor__item{
+  max-width: 642px;
+}
+
+.favor__items{
+  margin: 35px 0 45px 0;
+  
+}
+
+.favor__img img{
+  width: 300px;
+  height: 350px;
+
+}
+
+.favor__block{
+  
+  
+}
+
 
 }
