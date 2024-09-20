@@ -1011,6 +1011,9 @@ select:focus{
   color: #FFFFFF;
 }
 
+.footer-info{
+  display: none;
+}
 
 
 
@@ -1380,12 +1383,6 @@ select:focus{
 
 .favor__img{
   display: block;
-  
-  
-}
-
-.favor__items-wrap{
-  
 }
 
 .favor__item{
@@ -1409,5 +1406,35 @@ select:focus{
   align-items: center;
 }
 
+.partners__wrap{
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 68px;
+ 
+ gap: 20px;
+ max-height: 240px;
+}
+
+.partners__links__wrap{
+  padding: 0;
+  width: 500px;
+}
+
+.partners__img{
+  padding: 0;
+  
+}
+
+.partners__links__wrap{
+  margin: 0px;
+}
+
+.partners__element{
+  padding: 25px 0;
+}
 
 }
