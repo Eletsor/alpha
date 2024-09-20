@@ -1379,6 +1379,8 @@ select:focus{
 /*favor*/
 
 .favor__img{
+  display: block;
+  
   
 }
 
@@ -1392,7 +1394,7 @@ select:focus{
 
 .favor__items{
   margin: 35px 0 45px 0;
-  
+  padding: 14px 0 14px 26px;
 }
 
 .favor__img img{
@@ -1402,8 +1404,9 @@ select:focus{
 }
 
 .favor__block{
-  
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
