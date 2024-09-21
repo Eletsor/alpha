@@ -1463,7 +1463,7 @@ select:focus{
   }
 
   .section__wrap{
-    padding: 0 40px;
+    padding: 0 60px;
   }
 
   .crm__element h1{
@@ -1585,6 +1585,24 @@ select:focus{
 
   }
 
+
+  /*favor*/
+
+  .favor__item p{
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .favor__item img{
+    width: 60px;
+    height: 63px;
+  }
+
+  .favor__img img{
+    width: 320px;
+    height: 450px;
+  }
+
   /*biz*/
 
   h3{
@@ -1599,14 +1617,22 @@ select:focus{
     font-size: 30px;
   }
 
+  
+
   .biz__element__wrap{
     display: flex;
+    width: 100%;
     padding: 29px 48px 26px 26px;
   }
 
   .biz__img__wrap{
     padding-left: 17px;
-    width: 247px;
+    width: 320px;
+  }
+
+  #biz__p-1{
+    font-size: 20px;
+    width: 320px;
   }
 
   #biz__p-2, #biz__p-3{
@@ -1618,5 +1644,53 @@ select:focus{
     float: left;
   }
 
+  .crm__link__tittle p {
+    font-size: 30px;
+    padding-top: 45px;
+    max-width: 876px;
+    margin: 0 auto;
+    line-height: 40px;
+  }
+
+  .crm__link__tittle h2{
+    
+  }
+
+
+  /*linkers*/
+
+  .linker__item{
+    max-width: 690px;
+    max-height: 389px;
+  }
+
+  .linker__info{
+    display: ;
+  }
+
+  .linker-info-p{
+    font-size: 20px;
+    
+  }
+
+  .linker-info-price{
+    font-size: 30px;
+  }
+
+  .linker__tittle{
+    padding-top: 20px;
+    
+    
+  }
+
+  .linker__tittle p{
+    font-size: 20px;
+    
+  }
+
+  .linker__tittle img{
+    width: 24px;
+    height: 24px;
+  }
   
 }
