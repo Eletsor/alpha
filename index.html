@@ -62,7 +62,7 @@
             <img src="img/LOGO.svg"  alt="Логотип" width="127" height="33">
           </a>
           <ul id="menu-sm" >
-            <a  href=""> <li>  УСЛУГИ </li></a>
+            <a  href="" class="active"> <li>  УСЛУГИ </li></a>
             <a  href=""> <li>  КЕЙСЫ  </li></a>
             <a  href=""> <li> ЕЩЁ  </li> </a>
           </ul>
@@ -94,7 +94,7 @@
                  <span></span>
                  <span></span>
                    <ul id="menu" >
-                     <a  href=""> <li id="border-li">  УСЛУГИ <i  class="fa fa-arrow-right" aria-hidden="true"></i> </li></a>
+                     <a  href="" > <li id="border-li">  УСЛУГИ <i  class="fa fa-arrow-right" aria-hidden="true"></i> </li></a>
                      <a  href=""> <li>  КЕЙСЫ  <i  class="fa fa-arrow-right" aria-hidden="true"></i> </li></a>
                      <a  href=""> <li> ЕЩЁ <i  class="fa fa-arrow-right" aria-hidden="true"></i> </li> </a>
                      <a class="linker__btn" id="menu-btn" href="" role="button">Задать вопрос</a>
@@ -392,8 +392,12 @@
                       <img src="img/gal.svg" alt="">
                       <p>Покупка любого тарифа со скидкой</p>
                     </div>
+                    <div class="linker__tittle">
+                      <img src="img/gal.svg" alt="">
+                      <p>Индивидуальная настройка системы</p>
+                    </div>
                   </div>
-                  <div class="linker__button">
+                  <div class="linker__button linker__padding">
                     <a class="linker__btn" id="myBtn" href="#openModal" role="button"> Заказать  </a>
                     
                   </div>
@@ -406,13 +410,15 @@
                       <p class="linker-info-p">Подключение системы CRM + настройка</p>
                       <p class="linker-info-price">от 15 000 ₽</p>
                     </div>
-                    <div class="linker__tittle">
-                      <img src="img/gal.svg" alt="">
-                      <p>Покупка любого тарифа со скидкой</p>
-                    </div>
-                    <div class="linker__tittle">
-                      <img src="img/gal.svg" alt="">
-                      <p>Индивидуальная настройка системы</p>
+                    <div class="linker__tittle__wrap">
+                      <div class="linker__tittle">
+                        <img src="img/gal.svg" alt="">
+                        <p>Покупка любого тарифа со скидкой</p>
+                      </div>
+                      <div class="linker__tittle">
+                        <img src="img/gal.svg" alt="">
+                        <p>Индивидуальная настройка системы</p>
+                      </div>
                     </div>
                   </div>
                   <div class="linker__button">
@@ -506,7 +512,7 @@
       <section class="partners section">
         <div class="section__wrap">
           <div class="partners__tittle">
-            <h2>НАШ ПАРТНЁР <br> ПО CRM-СИСТЕМАМ</h2>
+            <h2>НАШ ПАРТНЁР <br id="brpartners"> ПО CRM-СИСТЕМАМ</h2>
           </div>
           <div class="partners__wrap">
             <div class="partners__img">
@@ -530,53 +536,58 @@
         </div>
       </section>
 
+
+
+
       <footer class="section">
         <div class="section__wrap">
-          <div class="footer__info-wrap">
-            <div class="footer__info footer-info">
-              <div class="footer__tittle">
-                <h1>Контакты</h1>
-              </div>
-              <div class="footer__parag">
-                <a  href=""> <li>  УСЛУГИ </li></a>
-                <a  href=""> <li>  КЕЙСЫ  </li></a>
-                <a  href=""> <li> ЕЩЁ  </li> </a>
+          <div class="footer__top">
+            <div class="footer__menu" style="display: none;">
+              <h3 class="footer__tittle">Меню</h3>
+              <ul class="footer__links">
+                <li class="footer__link"><a href="#">Услуги</a></li>
+                <li class="footer__link"><a href="#">Кейсы</a></li>
+                <li class="footer__link"><a href="#">Ещё</a></li>
+              </ul>
+              <div class="footer__dev">
+                <img src="img/LOGO.svg" alt="">
               </div>
             </div>
-            <div class="footer__info">
-              <div class="footer__tittle">
-                <h1>Контакты</h1>
+            <div class="footer__contacts">
+              <h3 class="footer__tittle">Контакты</h3>
+              <p class="footer__adress">Санкт-Петербург <br>
+                Заозёрная 8, к.2, офис 202</p>
+              <p class="footer__time">Пн-Пт, 10:00 - 18:00</p>
+              <p class="footer__tel"><a href="tel:+78124095222"></a>8 (812) 409-52-22</p>
+              <p class="footer__mail"><a href="mailto:info@alpham.pro"></a>info@alpham.pro</p>
+              <div class="footer__dev footer__dev-mobile">
+                <img class="footer__dev-img" src="img/LOGO.svg" alt="">
               </div>
-              <div class="footer__parag">
-                <p>Санкт-Петербург</p>
-                <p>Заозёрная 8, к.2, офис 202</p>
-                <p>Пн-Пт, 10:00 - 18:00</p>
-                <a href="tel:+79205204996">+7-(920)-520-49-96</a>
-                <a id="mail" href="mailto:info@alpham.pro">info@alpham.pro</a>
+              <ul class="footer__social-list">
+                <li class="footer__social-item">
+                  <a class="footer__social-link tg" href="https://t.me/alpham_pro"><img src="img/tg.svg" alt=""></a>
+                </li>
+                <li class="footer__social-item">
+                  <a class="footer__social-link vk" href="https://vk.com/alpha_marketing_alpham_pro"><img src="img/vk.svg" alt=""></a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_right">
+              <div class="footer__map map" id="map">
+                <iframe id="footer-cart" src="https://yandex.ru/map-widget/v1/?um=constructor%3A9af2cd481619d78b1ede7acf9f28df6244b8a5e7d7d025d825ddd7b3e5819b5b&amp;source=constructor" width="100%" height="320" frameborder=""></iframe>
               </div>
             </div>
           </div>
-          
-          <div class="footer__cart">
-            <iframe id="footer-cart" src="https://yandex.ru/map-widget/v1/?um=constructor%3A9af2cd481619d78b1ede7acf9f28df6244b8a5e7d7d025d825ddd7b3e5819b5b&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
-            
-          <div class="footer__logo__wrap">
-           <div class="footer__logo">
-             <img  src="img/LOGO.svg" alt="">
+          <div class="footer__bottom">
+            <div class="footer__copyright">
+              © 2024 Альфа маркетинг
+              <a href="#">Политика конфиденциальности</a>
             </div>
-            <div class="footer__logo__smm">
-              <a href=""><img src="img/vk.svg" alt=""></a>
-              <a href=""><img src="img/tg.svg" alt=""></a>
-            </div>
-            <div class="footer__politic">
-              <p>© 2024 Альфа маркетинг</p>
-              <a href="">Политика конфиденциальности</a>
-            </div>
-            
           </div>
-          
         </div>
       </footer>
+
+
 
 
     
@@ -585,3 +596,7 @@
 <script src="js/script.js"></script>
 </body>
 </html>
+
+
+
+
