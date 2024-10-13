@@ -1781,7 +1781,7 @@ footer{
   }
   
   .footer__contacts{
-    min-width: ;
+    
   }
 
   .footer__contacts p{
@@ -1863,6 +1863,16 @@ footer{
 
 @media (min-width: 1400px){
 
+  .section{
+    padding: 0;
+    margin-top: 120px;
+  }
+
+  .section__wrap{
+    width: 1400px;
+    padding: ;
+  }
+
   .navbarinner-sm{
     padding: 22px 20px 22px 0;
   }
@@ -1882,6 +1892,71 @@ footer{
 
   #menu-btn-sm{
     padding: 10px 35px;
+    font-size: 16px;
+  }
+
+  .crm__element img{
+    width: 704px;
+    padding: 0;
+  }
+
+  .crm__element{
+    padding:0 0 0px 0;
+  }
+
+  .crm__element a{
+    padding: 15px 40px;
+    font-size: 22px;
+  }
+
+  .crm__element-tittle{
+    padding: 50px 0;
+  }
+
+  .services__tittle h2{
+    font-size: 45px;
+    line-height: 89px;
+  }
+
+  .services__carts {
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .services__cart img{
+    width: 200px;
+    height: 200px;
+  }
+  
+  .services__cart p{
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .function__image img:last-child {
+    width: 330px;
+}
+
+  .function-logo{
+    width: 220px;
+    height: 30px;
+  }
+  
+  .function__info{
+    padding: 20px;
+  }
+
+  .function__info-tittle{
+    font-size: 24px;
+  }
+
+  .item-padding{
+    padding-top: 30px;
+  }
+
+  .item-padding p {
+    font-size: 20px;
+    
   }
 
 
