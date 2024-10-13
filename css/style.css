@@ -1863,14 +1863,18 @@ footer{
 
 @media (min-width: 1400px){
 
+  .footer__section{
+    margin: 0 auto;
+  }
+
   .section{
     padding: 0;
     margin-top: 120px;
   }
 
   .section__wrap{
-    width: 1400px;
-    padding: ;
+    max-width: 1400px;
+    padding: 0 40px;
   }
 
   .navbarinner-sm{
@@ -1959,6 +1963,56 @@ footer{
     
   }
 
+  .card__wrapper{
+    padding: 44px 80px;
+  }
+  
+  .card__wrapper h2 {
+    font-size: 42px;
+  }
 
+  .card__wrapper p{
+    font-size: 20px;
+    max-width: 492px;
+  }
+
+  .form-pd{
+    padding: 0 20px;
+  }
+
+  .favor__items{
+    padding: 60px 60px;
+    width: 1100px;
+    margin-top: 90px;
+  }
+
+  .favor__item:nth-child(2){
+    margin: 40px 0;
+  }
+
+  .favor__item p{
+    font-size: 34px;
+    
+  }
+
+  .favor__block{
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .favor__item img{
+    width: 90px;
+    height: 98px;
+  }
+
+  .favor__img{
+    position: absolute;
+    right: 0px;
+  }
+
+  .favor__img img{
+    width: 491px;
+    height: 614px;
+  }
 
 }
