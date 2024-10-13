@@ -1467,6 +1467,7 @@ footer{
 
   .section__wrap{
     padding: 0 60px;
+    
   }
 
   .crm__element h1{
@@ -1823,8 +1824,8 @@ footer{
   }
 
   .footer__section{
-    padding: 0;
-    width: 1000px;
+    padding: 0 60px;
+    margin: 0;
   }
 
   .footer__social-list{
