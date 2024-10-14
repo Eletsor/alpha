@@ -1873,8 +1873,8 @@ footer{
   }
 
   .section__wrap{
-    max-width: 1400px;
-    padding: 0 40px;
+    
+    padding: 0 100px;
   }
 
   .navbarinner-sm{
@@ -1935,6 +1935,10 @@ footer{
   .services__cart p{
     font-size: 25px;
     line-height: 25px;
+  }
+
+  .function__wrapper{
+    justify-content: space-between;
   }
 
   .function__image img:last-child {
@@ -2014,5 +2018,60 @@ footer{
     width: 491px;
     height: 614px;
   }
+  
+  .biz__elements{
+    justify-content: space-between;
+  }
 
-}
+  .biz__element__wrap{
+    padding-right: 58px;
+  }
+
+  #biz__p-2{
+    font-size: 16px;
+  }
+
+  #biz__p-3{
+    font-size: 16px;
+  }
+
+  .linker__item__wrap{
+    
+  }
+
+  .linker__info{
+    padding: 20px;
+  }
+
+  .linker-info-p{
+    font-size: 24px;
+  }
+
+  .linker-info-price{
+    font-size: 36px;
+  }
+
+  .linker__button{
+    
+  }
+  
+  .linker__tittle{
+    gap: 10px;
+    
+  }
+
+  .linker__tittle p{
+    font-size: 20px;
+    width: 600px;
+    
+  }
+
+  .linker__wrap{
+    padding-top: 75px;
+  }
+
+  .linker__padding{
+    padding-top: 35px;
+  }
+
+} 
