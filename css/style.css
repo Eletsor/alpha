@@ -2074,4 +2074,9 @@ footer{
     padding-top: 35px;
   }
 
+  .footer__section{
+    padding: 0 100px;
+    margin: 0;
+  }
+
 } 
