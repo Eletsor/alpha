@@ -46,6 +46,17 @@ window.onclick = function(event) {
 }
 
 
+var mainNav = document.querySelector('.navbarinner-sm');
+
+window.onscroll = function() {
+    windowScroll();
+};
+
+function windowScroll() {
+mainNav.classList.toggle("f-nav", mainNav.scrollTop > 50 || document.documentElement.scrollTop > 50);
+}
+
+
 
 
 

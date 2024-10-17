@@ -7,6 +7,7 @@ font-style: normal;
 background-image: url("../img/bg1.png");
 background-repeat: no-repeat;
 background-size: cover;
+overflow-x: hidden;
 }
 
 
@@ -267,8 +268,11 @@ header{
 #crm{
   background-image: url("../img/headercapa1.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 80%;
+  
 }
+
+
 
 
 .crm__container{
@@ -825,6 +829,12 @@ select:focus{
 
 /*crm link*/
 
+.crm__wrapper__row{
+  padding: 0 20px;
+  margin: 0;
+}
+
+
 .crm__link__wrapper{
 
 }
@@ -853,10 +863,22 @@ select:focus{
 
 .crm__link__form{
   padding-top: 45px;
+  
+}
+
+.form__wrapper{
+  margin-top: 45px;
+}
+
+.form__wrapper__card{
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .crm__form__wrapper{
   padding: 44px 14px 44px 14px;
+  
+  
 }
 
 .crm__card{
@@ -865,6 +887,7 @@ select:focus{
   border: 2px solid transparent; /*2*/
   background: linear-gradient(266.77deg, #FFFFFF -11.99%, #D795FF 42.41%, #7BC2FE 91.84%); /*3*/
   box-shadow: 0px 0px 10px 0px rgba(150, 98, 255, 1);
+  
 }
 
 .crm-card__wrapper-color{
@@ -1301,7 +1324,6 @@ footer{
 
 
 
-
 /*media*/
 
 @media (min-width: 640px){
@@ -1324,18 +1346,32 @@ footer{
     display: none;
   }
 
+  .navbarinner-sm.f-nav{
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+    background-color: rgba(29, 1, 65, 0.825);
+  }
+
   .navbarinner-sm{
     display: block;
     padding: 10px 15px 10px 15px;
     margin: 0 auto;
-    background-color: rgba(29, 1, 65, 0.3);
+    background-color: rgba(29, 1, 65, 0.501);
     mix-blend-mode: normal;
+    
 }
 
-.header__brbox{
+  .header__backsor{
+  position: relative;
+  
+}
+
+  .header__brbox{
   padding: 10px 0px 10px 10px;
   font-size: 12px;
   margin: 0px 45px 0px 45px;
+  
 }
 
 #menu-btn-sm{
@@ -1451,6 +1487,8 @@ footer{
   padding: 25px 0;
 }
 
+
+
 }
 
 
@@ -1475,12 +1513,14 @@ footer{
     padding-left: 0px;
   }
   .crm__element{
-    padding: 40px 0 50px 0;
+    padding: 0;
   }
 
   .crm__element a{
     padding: 15px 40px;
   }
+
+  
 
 
   .crm__element img{
@@ -1656,9 +1696,7 @@ footer{
     line-height: 40px;
   }
 
-  .crm__link__tittle h2{
-    
-  }
+  
 
 
   /*linkers*/
@@ -1734,6 +1772,16 @@ footer{
   .partners__img img{
     width: 437px;
     height: 200px;
+  }
+
+
+  .form__wrapper{
+    margin-top: 45px;
+  }
+  
+  .form__wrapper__card{
+    
+    margin: 0 auto;
   }
 
   
@@ -2079,4 +2127,53 @@ footer{
     margin: 0;
   }
 
+  .partners__img img{
+    width: 537px;
+    height: 270px;
+  }
+
+  .partners__element{
+    padding: 38px 0;
+  }
+
+  #partners-link{
+    font-size: 36px;
+    max-width: 800px;
+  }
+
+  .crm__form__wrapper{
+    padding: 44px 440px 44px 80px;
+   
+  }
+
+  .form__wrapper{
+    margin-top: 45px;
+  }
+  
+  .form__wrapper__card{
+    width: 912px;
+    max-width: 912px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .crm__card{
+    width: 912px;
+  }
+
+  .form__wrapper__card::after {
+    display: block;
+    position: absolute;
+    content: "";
+    right: -200px;
+    top: 10px;
+    width: 701px;
+    height: 468px;
+    background: url(../img/crmplanet.svg) no-repeat center;
+    background-size: contain;
+}
+
+  
+
+ 
 } 
