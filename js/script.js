@@ -70,5 +70,3 @@ mainNav.classList.toggle("f-nav", mainNav.scrollTop > 50 || document.documentEle
 
 
 
-
-
